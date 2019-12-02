@@ -1,0 +1,15 @@
+.details-container {
+  display: flex;
+}
+.details-container .label {
+  font-size: 16px;
+  font-weight: bold;
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  padding-right: 8px;
+}
+.details-container .empty {
+  flex: 1 1 0%;
+}
+.details-container .empty hr {
+  border: 1px solid red;
+}

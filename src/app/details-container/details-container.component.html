@@ -1,0 +1,15 @@
+<div class="details-container">
+  <div class="label">
+    {{context}}
+  </div>
+  <div class="empty">
+    <hr/>
+    
+  </div>
+</div>
+<ng-container [ngTemplateOutlet]="template || defaultTemplate" [ngTemplateOutletContext]="context">
+
+</ng-container>
+<ng-template #defaultTemplate>
+  <h1>Coming soon!!</h1>
+</ng-template>
